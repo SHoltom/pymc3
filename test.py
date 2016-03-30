@@ -2,8 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import pymc3
-#import scipy.stats as stats
-
+import scipy.stats as stats
 plt.style.use("ggplot")
 # Parameter values for prior and analytic posterior
 n = 50
@@ -16,3 +15,4 @@ beta_post = 52
 # How many iterations of the Metropolis
 # algorithm to carry out for MCMC
 iterations = 100000
+iter = 200
