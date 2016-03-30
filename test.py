@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import pymc3
-import scipy.stats as stats
+#import scipy.stats as stats
 
 plt.style.use("ggplot")
 # Parameter values for prior and analytic posterior
